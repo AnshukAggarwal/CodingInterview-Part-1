@@ -1,0 +1,33 @@
+body{
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    margin-top: 20px;
+}
+
+#section div{
+    flex-basis: 30%;
+    position: relative;
+    padding: 10px;
+    border: 1px solid black;
+}
+.profile_pic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.roles{
+    padding: 10px;
+    margin-left: 10px;
+}
+.crown{
+    position: absolute;
+    right:10px;
+}
